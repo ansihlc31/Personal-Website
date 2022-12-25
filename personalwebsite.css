@@ -1,0 +1,111 @@
+#photo{
+    width: 500px;
+    height: 500px;
+    border: 3px solid gray  ;
+    border-radius: 30px;
+    background-image: url('anish.jpg');
+    background-size: 500px ;
+    
+
+}    
+#text{
+    width: 500px;
+    height:200px;
+    border: 3px solid gray  ;
+    border-radius: 30px;
+    
+}
+
+.title{
+    position: relative;
+    display:inline;
+
+    font-size:20px;
+    border: 0px solid white;
+}
+
+#description{
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+#add-text{
+    font-size: 2rem;
+    margin-top:10px;
+    margin-left: 1rem;
+
+
+}
+#next{
+    position: relative;
+    display: inline;
+}
+#secondpage{
+    display: none;
+}
+#goto1{
+    font-size: 1rem;
+    text-decoration: capitalize;
+    margin-top:10px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+#next{
+    font-size: 1rem;
+    margin-top:10px;
+    margin-left: 1rem;
+    cursor: pointer;
+
+
+
+}
+body{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: rgba(160, 128, 128, 0.192);
+   
+
+
+
+}
+#name{
+   position:relative;
+   text-align:center;
+   margin-top:10rem;
+   margin-left: 10rem;
+}
+#img{
+    border: 3px solid gray  ;
+    border-radius: 30px;
+
+}
+#int{
+     font-size: 30px;
+}
+#nam{
+    font-size:30px;
+    margin-bottom: 30rem;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+
+  .fa-instagram {
+    background: rgb(139, 65, 78);
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px ;
+    border-radius: 3px;
+    
+}
+#social{
+    font-size: 3rem;
+}
